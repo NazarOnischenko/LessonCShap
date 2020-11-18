@@ -8,7 +8,9 @@ namespace LessonCShap
         {
             Console.WriteLine("Wrute your name:");
             var name = Console.ReadLine();
-            Console.WriteLine("Hello {0}!",name);
+            Console.WriteLine("Write your surname:");
+            var surname = Console.ReadLine();
+            Console.WriteLine($"Hello {name} {surname}!");
         }
     }
 }
