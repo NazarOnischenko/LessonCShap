@@ -10,6 +10,8 @@ namespace LessonCShap
             var name = Console.ReadLine();
             Console.WriteLine("Write your surname:");
             var surname = Console.ReadLine();
+            Console.WriteLine("Write your age:");
+            var age = Console.ReadLine();
             Console.WriteLine($"Hello {name} {surname}!");
         }
     }
